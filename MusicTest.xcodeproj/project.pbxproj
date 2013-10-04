@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351A41CF17FDA1A5001EE278 /* Aura Lee (Love Me Tender).mid in Resources */ = {isa = PBXBuildFile; fileRef = 351A41CC17FDA1A5001EE278 /* Aura Lee (Love Me Tender).mid */; };
+		351A41D017FDA1A5001EE278 /* FurElise.mid in Resources */ = {isa = PBXBuildFile; fileRef = 351A41CD17FDA1A5001EE278 /* FurElise.mid */; };
+		351A41D117FDA1A5001EE278 /* Sonatina in C-Latour.mid in Resources */ = {isa = PBXBuildFile; fileRef = 351A41CE17FDA1A5001EE278 /* Sonatina in C-Latour.mid */; };
+		351A41D417FE7A61001EE278 /* MidiPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 351A41D317FE7A61001EE278 /* MidiPlayer.m */; };
 		E10875F014A60AAF0010383D /* Piano1.aupreset in Resources */ = {isa = PBXBuildFile; fileRef = E10875EF14A60AAF0010383D /* Piano1.aupreset */; };
 		E10875F314A615370010383D /* silent_night_jz.mid in Resources */ = {isa = PBXBuildFile; fileRef = E10875F214A615370010383D /* silent_night_jz.mid */; };
 		E10875FD14A641C80010383D /* HappyXmas.mid in Resources */ = {isa = PBXBuildFile; fileRef = E10875FC14A641C80010383D /* HappyXmas.mid */; };
@@ -46,6 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		351A41CC17FDA1A5001EE278 /* Aura Lee (Love Me Tender).mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = "Aura Lee (Love Me Tender).mid"; path = "MusicTest/Aura Lee (Love Me Tender).mid"; sourceTree = "<group>"; };
+		351A41CD17FDA1A5001EE278 /* FurElise.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = FurElise.mid; path = MusicTest/FurElise.mid; sourceTree = "<group>"; };
+		351A41CE17FDA1A5001EE278 /* Sonatina in C-Latour.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = "Sonatina in C-Latour.mid"; path = "MusicTest/Sonatina in C-Latour.mid"; sourceTree = "<group>"; };
+		351A41D217FE7A61001EE278 /* MidiPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MidiPlayer.h; path = MusicTest/MidiPlayer.h; sourceTree = "<group>"; };
+		351A41D317FE7A61001EE278 /* MidiPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MidiPlayer.m; path = MusicTest/MidiPlayer.m; sourceTree = "<group>"; };
 		E10875EF14A60AAF0010383D /* Piano1.aupreset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Piano1.aupreset; sourceTree = "<group>"; };
 		E10875F214A615370010383D /* silent_night_jz.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = silent_night_jz.mid; sourceTree = "<group>"; };
 		E10875FC14A641C80010383D /* HappyXmas.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = HappyXmas.mid; sourceTree = "<group>"; };
@@ -111,6 +120,11 @@
 		E1335FC71462F60E00EDD140 = {
 			isa = PBXGroup;
 			children = (
+				351A41D217FE7A61001EE278 /* MidiPlayer.h */,
+				351A41D317FE7A61001EE278 /* MidiPlayer.m */,
+				351A41CC17FDA1A5001EE278 /* Aura Lee (Love Me Tender).mid */,
+				351A41CD17FDA1A5001EE278 /* FurElise.mid */,
+				351A41CE17FDA1A5001EE278 /* Sonatina in C-Latour.mid */,
 				E1335FDC1462F60E00EDD140 /* MusicTest */,
 				E1335FFA1462F60E00EDD140 /* MusicTestTests */,
 				E1335FD51462F60E00EDD140 /* Frameworks */,
@@ -285,12 +299,15 @@
 				E1CA5D8E148B5C96008ABFD7 /* 1001.mid in Resources */,
 				E1CA5DAB148B9C49008ABFD7 /* JingleBell.mid in Resources */,
 				E1CA5DC7148C18A2008ABFD7 /* Sounds in Resources */,
+				351A41D117FDA1A5001EE278 /* Sonatina in C-Latour.mid in Resources */,
 				E1CA5DCA148C1EDF008ABFD7 /* Trombone1.aupreset in Resources */,
 				E1CA5DCD148C20B7008ABFD7 /* Vibraphone1.aupreset in Resources */,
+				351A41D017FDA1A5001EE278 /* FurElise.mid in Resources */,
 				E1CA5DD1148C37CA008ABFD7 /* WonderChristmas.mid in Resources */,
 				E10875F014A60AAF0010383D /* Piano1.aupreset in Resources */,
 				E10875F314A615370010383D /* silent_night_jz.mid in Resources */,
 				E10875FD14A641C80010383D /* HappyXmas.mid in Resources */,
+				351A41CF17FDA1A5001EE278 /* Aura Lee (Love Me Tender).mid in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +345,7 @@
 				E1335FE31462F60E00EDD140 /* main.m in Sources */,
 				E1335FE71462F60E00EDD140 /* AppDelegate.m in Sources */,
 				E1335FED1462F60E00EDD140 /* ViewController.m in Sources */,
+				351A41D417FE7A61001EE278 /* MidiPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
