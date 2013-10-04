@@ -113,10 +113,9 @@ enum {
     result = MusicPlayerStart(musicPlayer);
     NSLog(@"MusicPlayerStart = %ld", result);
     
-    curTime +=1;
-    
     usleep(tval*1000*900);
-    [self stopMusic];
+    //curTime +=1;
+    //[self stopMusic];
     
 /*
     //numbers of track
